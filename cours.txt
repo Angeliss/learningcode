@@ -1,0 +1,49 @@
+HTML = HyperText Markup Language
+
+Notion de balise:
+-------------------
+    - balise paire 
+    - Balise impaire (Orpheline)
+
+<> =>  Chevron
+< => Chevron ouvrant ; > => Chevron fermant
+
+<balise>
+- Balise paire
+Syntaxe: <balise>...</balise>
+Exemple: <p>Mon paragraphe</p>
+
+- Balise impaire 
+Syntaxe: <balise> ou <balise />
+Exemple: <br />
+
+Notion d'attribut:
+-----------------
+- Attributs globaux (Ex: class, id, title, ...)
+- Attributs specifiques (Ex: src, ...)
+- Attributs d'evenement (Ex: onclick, onkeyup, onkeydown, ...)
+
+Syntaxe: 
+    <balise attribut="valeur"></balise>
+ Ex: <stylo couleur="bleu" type="shneider>
+
+    <balise attribut="valeur" />
+
+Les commentaires:
+-----------------
+<!-- Mon commentaire --> (commentaire monolingne)
+<!-- 
+    Ceci est 
+    un commentaire
+    sur plusieurs 
+    lignes
+-->
+
+NB: L'ordre d'ecriture des balises
+<balise1> 
+    <balise2>
+        <balise3>
+
+        </balise3>
+    </balise2>
+<balise1>
